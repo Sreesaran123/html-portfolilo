@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+    
+}nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0 23px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: pink;
+    font-size: 1.04rem;
+}
+
+
+.left{
+    font-size: 1.5rem;
+    
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.first > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2rem;
+    
+   
+}
+.leftSection .btn{
+    padding: 7px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+   
+}
+.leftSection .buttons{
+    padding: 50px 0px;
+}
+
+.RightSection img{
+    width: 100%;
+    margin: 50px 0px;
+   
+}
+
+
+
+.skin{
+    color: #ffcea2;
+}
+
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color:  rgb(170, 107, 228);
+
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+color: #9c97f1;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 78vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 115px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+
+}
+footer{
+    background-color: #0e0e1a;
+    
+    color: white;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-right{
+    text-align: center;
+    color: grey;
+    padding: 12px 0px;
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">SARAN'S Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">SARAN</span>
+                <div>and I am a <span class="skin">Passionate</span></div>
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="saran'sResume.pdf" download><button class="btn">Download Resume</button></a>
+                    
+                </div>
+            </div>
+            <div class="RightSection">
+                <img src="dev_1.png" alt="Web Developer"  >
+                
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="web.png" alt="">
+                    <div class="vertical-title">
+                        Web developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to the world of web development excellence! I am Saran, a seasoned professional with a passion for crafting exceptional digital experiences. In the dynamic landscape of web development, staying ahead is key. I am committed to continuous learning, keeping abreast of the latest trends, tools, and best practices. This ensures that the solutions I provide are not only cutting-edge but also highly effective.
+                        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, numquam iusto officia tempore iste sint magni, corrupti voluptatum, hic quas eum? Incidunt, voluptatum! -->
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="node.png" alt="">
+                    <div class="vertical-title">
+                        Node.js developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Learning Node.js. Node.js is a powerful JavaScript runtime built on the V8 JavaScript engine. It allows you to build scalable and efficient server-side applications using JavaScript, a language traditionally associated with the client-side.
+                        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, numquam iusto officia tempore iste sint magni, corrupti voluptatum, hic quas eum? Incidunt, voluptatum! -->
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="vertical-title">
+                        React developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Learning React is an exciting journey that opens up a world of possibilities for building dynamic and interactive user interfaces. React is a JavaScript library developed by Facebook that simplifies the process of creating reusable UI components.
+                        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, numquam iusto officia tempore iste sint magni, corrupti voluptatum, hic quas eum? Incidunt, voluptatum! -->
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="google.png" alt="">
+                    <div class="vertical-title">
+                        Soft developer at Google (2025-2027)
+                    </div>
+                    <div class="vertical-desc">
+                        Currently Working at Google
+                        <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, numquam iusto officia tempore iste sint magni, corrupti voluptatum, hic quas eum? Incidunt, voluptatum! -->
+                    </div>
+                </div>
+
+               
+                
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Saran's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            Copyright &#169; Saranportfolio.com | All rights reserverd
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Welcome to Saran website! Contact Me To Know About Me'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
